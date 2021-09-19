@@ -1,0 +1,10 @@
+[package]
+name = "spsc-mmap-disk-buffer"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+memmap2 = "0.3.1"
+parking_lot = "0.11.2"
